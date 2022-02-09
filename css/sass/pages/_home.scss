@@ -566,16 +566,24 @@
                 width: 25px;
                 height: 25px;
                 border-radius: 6px;
-                border: 2px solid;
+                border: 2px solid $brown-light;
 
-                i {
+                a {
                     height: 100%;
-                    font-size: 1.4rem;
+
                     display: flex;
                     text-align: center;
                     justify-content: center;
                     align-items: center;
+
+                    text-decoration: none;
+                }
+
+                i {
+
+                    font-size: 1.4rem;
                     cursor: pointer;
+                    color: $brown-light;
                 }
             }
         }
