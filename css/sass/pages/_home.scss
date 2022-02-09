@@ -401,6 +401,7 @@
 
     @include breakpoint(tablet) {
         margin-bottom: 2rem;
+        height: auto;
 
     }
 
@@ -410,7 +411,7 @@
 
         @include breakpoint(tablet) {
             padding: 1rem 2rem;
-
+            height: auto;
         }
 
         h6 {
