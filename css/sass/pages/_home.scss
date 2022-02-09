@@ -626,55 +626,17 @@
         }
     }
 
-    .accordion {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .rm-accordion {
+       &--item{
+           &-header{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           &-body{}
+       }
+      
     }
 
-    .accordion-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 80%;
-        height: 14rem;
-        border-radius: 3.5rem;
-        border: 0.2rem solid $black;
-        margin: 1rem 0;
-        background: none;
-
-        .accordion-button:not(.collapsed) {
-            background-color: unset;
-            box-shadow: none;
-            color: unset;
-            font-size: 1.6rem;
-            font-family: bfont;
-            color: $black;
-        }
-
-        .accordion-button .collapsed {
-            background-color: unset;
-            box-shadow: none;
-            color: unset;
-            font-size: 1.6rem;
-            font-family: bfont;
-            color: $black;
-        }
-
-        .accordion-body {
-            font-size: 1.4rem;
-            font-family: mfont;
-            color: $black;
-        }
-
-        .accordion-button:focus {
-            border-color: none;
-            box-shadow: none;
-        }
-
-
-    }
+ 
 }

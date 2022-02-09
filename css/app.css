@@ -1210,74 +1210,15 @@ nav .menu-mobile {
   margin: 0 1rem;
 }
 
-.FAQ .accordion {
+.FAQ .rm-accordion--item-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.FAQ .accordion-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-  width: 80%;
-  height: 14rem;
-  border-radius: 3.5rem;
-  border: 0.2rem solid var(--black);
-  margin: 1rem 0;
-  background: none;
-}
-
-.FAQ .accordion-item .accordion-button:not(.collapsed) {
-  background-color: unset;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: unset;
-  font-size: 1.6rem;
-  font-family: bfont;
-  color: var(--black);
-}
-
-.FAQ .accordion-item .accordion-button .collapsed {
-  background-color: unset;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: unset;
-  font-size: 1.6rem;
-  font-family: bfont;
-  color: var(--black);
-}
-
-.FAQ .accordion-item .accordion-body {
-  font-size: 1.4rem;
-  font-family: mfont;
-  color: var(--black);
-}
-
-.FAQ .accordion-item .accordion-button:focus {
-  border-color: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
 }
 /*# sourceMappingURL=app.css.map */
