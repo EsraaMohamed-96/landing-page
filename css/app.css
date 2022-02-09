@@ -2,6 +2,7 @@
   --white: #ffffff;
   --white-2: #fff5e3;
   --white-3: #fefefe;
+  --white-4: #fdefd6;
   --pastel-brown-light: #7b6659;
   --pastel-brown-dark: #7d5407;
   --gray-dark: #515151;
@@ -978,5 +979,11 @@ nav .menu-mobile {
   .art .content-wrapper p {
     width: 100%;
   }
+}
+
+.our-team {
+  height: 100vh;
+  width: 100%;
+  background: var(--white-4);
 }
 /*# sourceMappingURL=app.css.map */
