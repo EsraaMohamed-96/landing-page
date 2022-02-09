@@ -7,6 +7,7 @@
   --gray-dark: #515151;
   --gold: #e3a430;
   --red-dark: #bd131b;
+  --red-light: #d82330;
   --brown: #320307;
   --brown-light: #482f00;
   --dark-gold: #feb229;
@@ -125,6 +126,12 @@ html {
   color: var(--red-dark);
   font-family: xbfont;
   font-size: 6rem;
+}
+
+.red-3 {
+  color: var(--red-light);
+  font-family: rfont;
+  font-size: 1.6rem;
 }
 
 body {
@@ -585,7 +592,8 @@ nav .menu-mobile {
 
 .road-map {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,34 +630,42 @@ nav .menu-mobile {
     margin: 0;
     text-align: left;
     width: 100%;
-    padding: 0 1rem 2rem 0;
+    padding: 7rem 0;
   }
 }
 
+.road-map h2 {
+  color: var(--brown-light);
+  text-align: center;
+  font-family: xbfont;
+  font-size: 10rem;
+}
+
 @media only screen and (max-width: 1024px) {
-  .road-map {
-    padding: 7rem 0;
+  .road-map h2 {
+    font-size: 7rem;
   }
 }
 
 .road-map .road-map--arrow {
   position: absolute;
-  bottom: 0rem;
+  bottom: -3rem;
   left: 0;
   right: 0;
   margin: 0 auto;
-  height: 100%;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 1024px) {
   .road-map .road-map--arrow {
     opacity: 0.3;
+    height: auto;
   }
 }
 
 .road-map .data-wrapper {
   text-align: left;
-  margin: 7rem 0 0 3rem;
+  margin: 7rem 0 0 5rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -731,7 +747,7 @@ nav .menu-mobile {
   width: 100%;
   height: auto;
   position: relative;
-  top: -3.5rem;
+  top: -1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -883,5 +899,82 @@ nav .menu-mobile {
   color: var(--white-2);
   font-family: bfont;
   font-size: 1.6rem;
+}
+
+.art {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--white-2);
+}
+
+@media only screen and (max-width: 1024px) {
+  .art {
+    margin-bottom: 2rem;
+  }
+}
+
+.art .content-wrapper {
+  text-align: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1024px) {
+  .art .content-wrapper {
+    padding: 1rem 2rem;
+  }
+}
+
+.art .content-wrapper h6 {
+  font-family: bfont;
+  color: var(--red-light);
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .art .content-wrapper h6 {
+    font-size: 2rem;
+  }
+}
+
+.art .content-wrapper h2 {
+  color: var(--brown-light);
+  font-size: 7rem;
+  font-family: bfont;
+}
+
+@media only screen and (max-width: 1024px) {
+  .art .content-wrapper h2 {
+    font-size: 4rem;
+  }
+}
+
+.art .content-wrapper img {
+  margin: 1rem 0;
+}
+
+.art .content-wrapper p {
+  color: var(--brown-light);
+  font-family: rfont;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .art .content-wrapper p {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=app.css.map */
