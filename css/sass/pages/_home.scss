@@ -282,7 +282,7 @@
 
         position: relative;
         // top: -150px;
-        right: -80px;
+        right: -8rem;
         width: 100%;
         max-width: 40rem;
         min-width: 25rem;
@@ -305,7 +305,7 @@
 
         &--left {
             right: auto;
-            left: -80px;
+            left: -8rem;
             transform: rotateY(190deg);
             width: 100%;
             max-width: 40rem;
@@ -329,7 +329,7 @@
 
         &--right {
             left: auto;
-            right: -80px;
+            right: -8rem;
             width: 100%;
             max-width: 40rem;
             min-width: 25rem;
@@ -523,8 +523,8 @@
         }
 
         .img-wrapper {
-            width: 200px;
-            height: 200px;
+            width: 20rem;
+            height: 20rem;
             border-radius: 50%;
 
             img {
@@ -563,10 +563,10 @@
             width: 40%;
 
             .icon {
-                width: 25px;
-                height: 25px;
-                border-radius: 6px;
-                border: 2px solid $brown-light;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 0.6rem;
+                border: 0.2rem solid $brown-light;
 
                 a {
                     height: 100%;
@@ -640,9 +640,9 @@
         align-items: center;
         margin: auto;
         width: 80%;
-        height: 140px;
-        border-radius: 35px;
-        border: 2px solid $black;
+        height: 14rem;
+        border-radius: 3.5rem;
+        border: 0.2rem solid $black;
         margin: 1rem 0;
         background: none;
 
@@ -675,21 +675,6 @@
             box-shadow: none;
         }
 
-        // h4 {
-        //     color: $black;
-        //     font-size: 2rem;
-        //     font-family: bfont;
-        //     border-bottom: 2px solid $black;
-        //     padding: 2rem 0;
-        //     width: 100%;
-        // }
 
-        // p {
-        //     padding: 2rem 0;
-        //     font-size: 1.6rem;
-        //     font-family: mfont;
-        //     color: $black;
-        //     margin-bottom: 0;
-        // }
     }
 }
