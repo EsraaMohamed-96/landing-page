@@ -48,7 +48,7 @@
         height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items:center;
 
         @include breakpoint(tablet) {
             height: 100%;
