@@ -201,10 +201,7 @@ nav {
             display: none;
         }
 
-        @include breakpoint(tablet) {
-            display: block;
 
-        }
 
         .nav-links {
             @include breakpoint(default) {
