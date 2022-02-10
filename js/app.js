@@ -36,7 +36,9 @@ let faq_tl = gsap.timeline({scrollTrigger: {trigger: ".FAQ",start: "+=35% center
 faq_tl.fromTo('.FAQ .rm-accordion--item', 0.5, {yPercent: 50,opacity: 0}, {yPercent: 0,opacity: 1,stagger: 0.1})
 // ----------------------------------
 
-
+window.addEventListener("resize", function(){
+    $('.menu-mobile').css("display","none");
+}, true);
 
 $('.menu-btn').click(function(){
     $('.menu-mobile').css("display","block");
