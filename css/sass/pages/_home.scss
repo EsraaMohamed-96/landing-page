@@ -627,16 +627,57 @@
     }
 
     .rm-accordion {
-       &--item{
-           &-header{
-               display: flex;
-               justify-content: center;
-               align-items: center;
-           }
-           &-body{}
-       }
-      
+        margin: 4rem 0;
+        --border-height: 0.3rem;
+
+        &--item {
+            width: 80%;
+            border: var(--border-height) solid $black;
+            border-radius: 3rem;
+            padding: 2rem;
+            margin: 2rem auto;
+
+            &-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h2 {
+                    cursor: pointer;
+                }
+
+                .plus {
+                    cursor: pointer;
+
+                    i {
+                        font-size: 3rem;
+                    }
+                }
+            }
+
+            &-body {
+                padding: 2rem 0;
+                border-top: var(--border-height) solid $black;
+                margin-top: 2rem;
+                opacity: 0;
+                display: none;
+                p {
+                opacity: 0;
+                font-size: 1.8rem;
+                }
+                &.active{
+                    opacity: 1;
+                    display: block;
+                    p{
+                    transition: all 0.3s ease-in-out;
+                    opacity: 1;
+
+                    }
+                }
+            }
+        }
+
     }
 
- 
+
 }
