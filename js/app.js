@@ -14,7 +14,7 @@ header_tl.to('.hero .hero-right-arrow', 2.5, {x: '15vw',opacity: 0,ease: "power4
 header_tl.to('.story #triangle', 0.5, {y: '-2rem',ease: "power4.out",})
 // ----------------------------------
 let story_tl = gsap.timeline({scrollTrigger: {trigger: ".story",start: "top +=65%",end: "bottom +=90%",scrub: 1,pin: false,markers: false}});
-story_tl.to('.story .txt-wrapper h1', 0.3, {y: '-5rem',ease: "power4.inOut"})
+// story_tl.to('.story .txt-wrapper h1', 0.3, {y: '-5rem',ease: "power4.inOut"})
 story_tl.to('.story .img-wrapper .men-img', 0.3, {scale: 1.1,ease: "power4.inOut"}, '-=0.6')
 story_tl.to('.story .img-wrapper .decoration-rotation', 8.3, {rotate: '180deg',ease: "power4.inOut"}, '-=1')
 story_tl.to('.story .txt-wrapper .content p', 1.3, {y: '-5rem',stagger: 0.1,ease: "power4.inOut"}, '-=1')
