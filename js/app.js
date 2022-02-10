@@ -40,7 +40,7 @@ faq_tl.fromTo('.FAQ .rm-accordion--item', 0.5, {yPercent: 50,opacity: 0}, {yPerc
 
 $('.menu-btn').click(function(){
     $('.menu-mobile').css("display","block");
-    $('html').css("overflow","hidden");
+    $('body').css("overflow","hidden");
 })
 
 $('.nav-links li a').click(function(){
