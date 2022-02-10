@@ -37,3 +37,7 @@ faq_tl.fromTo('.FAQ .rm-accordion--item', 0.5, {yPercent: 50,opacity: 0}, {yPerc
 // ----------------------------------
 
 
+$('.nav-links li a').click(function(){
+    console.log("closed");
+    $('.menu-mobile').css("display","none");
+})

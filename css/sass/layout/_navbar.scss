@@ -4,9 +4,7 @@ nav {
         height: 8rem;
         display: flex;
 
-
         @include breakpoint(tablet) {
-
             z-index: 9999;
         }
 
