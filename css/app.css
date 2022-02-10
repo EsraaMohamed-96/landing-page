@@ -464,12 +464,65 @@ nav .line {
 nav .menu-mobile {
   position: fixed;
   left: 0;
-  top: 0;
+  top: 8rem;
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: var(--pastel-brown-light);
+  background: var(--white-2);
   display: none;
+}
+
+nav .menu-mobile .nav-links ul {
+  list-style: none;
+}
+
+nav .menu-mobile .nav-links ul li {
+  padding: 1.5rem;
+}
+
+nav .menu-mobile .nav-links ul li a {
+  text-decoration: none;
+  color: var(--pastel-brown-light);
+  font-size: 1.6rem;
+}
+
+nav .menu-mobile .social-links {
+  padding: 2rem 1.5rem;
+  color: var(--pastel-brown-light);
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .menu-mobile .social-links .icon {
+  border: 0.3rem solid var(--pastel-brown-dark);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+nav .menu-mobile .social-links .icon i {
+  color: var(--pastel-brown-dark);
+  font-size: 1.6rem;
+  margin: auto;
+}
+
+nav .menu-mobile .bt-sign {
+  padding: 0.4rem 2.3rem;
+  border-radius: 2.3rem;
+  color: var(--pastel-brown-dark);
+  border: 0.3rem solid var(--pastel-brown-dark);
+  font-size: 1.4rem;
+  margin: auto;
+  margin-left: 1rem;
+  cursor: pointer;
+  width: 20%;
 }
 
 footer {
@@ -535,7 +588,7 @@ footer .footer-form form .input-group input {
 }
 
 footer .footer-form form .input-group button {
-  --w-h:6rem;
+  --w-h: 6rem;
   position: absolute;
   right: 0.9rem;
   z-index: 21;
@@ -552,7 +605,7 @@ footer .footer-form form .input-group button {
 
 @media only screen and (max-width: 1024px) {
   footer .footer-form form .input-group button {
-    --w-h:5rem
+    --w-h: 5rem
                         ;
   }
 }
