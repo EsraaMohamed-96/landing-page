@@ -193,6 +193,10 @@ nav {
         background: $white-2;
         display: none;
 
+        @include breakpoint(default) {
+            display: none;
+        }
+
         .nav-links {
             ul {
                 list-style: none;
