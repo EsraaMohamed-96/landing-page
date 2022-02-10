@@ -38,6 +38,7 @@ faq_tl.fromTo('.FAQ .rm-accordion--item', 0.5, {yPercent: 50,opacity: 0}, {yPerc
 
 window.addEventListener("resize", function(){
     $('.menu-mobile').css("display","none");
+    $('.toggle').removeClass('activate ');
 }, true);
 
 $('.menu-btn').click(function(){
