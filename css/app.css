@@ -28,6 +28,18 @@ html {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 7px;
+  }
+}
+
 @font-face {
   font-family: bfont;
   src: url(/fonts/Qanelas-Bold.ttf);

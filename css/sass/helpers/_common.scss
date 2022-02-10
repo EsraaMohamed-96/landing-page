@@ -6,6 +6,12 @@
 html {
     font-size: 10px;
     overflow-x: hidden;
+    @include breakpoint(mobile){
+        font-size: 8px;
+    }
+    @include breakpoint(smmobile){
+        font-size: 7px;
+    }
 }
 
 @font-face {
