@@ -518,11 +518,12 @@ nav .menu-mobile .bt-sign {
   border-radius: 2.3rem;
   color: var(--pastel-brown-dark);
   border: 0.3rem solid var(--pastel-brown-dark);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin: auto;
   margin-left: 1rem;
   cursor: pointer;
-  width: 20%;
+  text-align: center;
+  width: 25%;
 }
 
 footer {
