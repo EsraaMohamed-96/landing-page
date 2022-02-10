@@ -478,6 +478,24 @@ nav .menu-mobile {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  nav .menu-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (max-height: 1080px) {
+  nav .menu-mobile .nav-links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav .menu-mobile .nav-links {
+    display: block;
+  }
+}
+
 nav .menu-mobile .nav-links ul {
   list-style: none;
 }

@@ -197,7 +197,20 @@ nav {
             display: none;
         }
 
+        @include breakpoint(tablet) {
+            display: none;
+
+        }
+
         .nav-links {
+            @include breakpoint(default) {
+                display: none;
+            }
+
+            @include breakpoint(tablet) {
+                display: block;
+            }
+
             ul {
                 list-style: none;
 
