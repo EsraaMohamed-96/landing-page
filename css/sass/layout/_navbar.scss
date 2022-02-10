@@ -198,7 +198,7 @@ nav {
         }
 
         @include breakpoint(tablet) {
-            display: none;
+            display: block;
 
         }
 
